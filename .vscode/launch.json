@@ -1,0 +1,59 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Circle",
+            "request": "launch",
+            "mainClass": "Circle",
+            "projectName": "Javatest_e0c0bbeb",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrimeNotPrime",
+            "request": "launch",
+            "mainClass": "PrimeNotPrime",
+            "projectName": "Javatest_e0c0bbeb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ScannerDemo2",
+            "request": "launch",
+            "mainClass": "ScannerDemo2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ScannerDemo1",
+            "request": "launch",
+            "mainClass": "ScannerDemo1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SimpleInterest",
+            "request": "launch",
+            "mainClass": "SimpleInterest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EvenOdd",
+            "request": "launch",
+            "mainClass": "EvenOdd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hello",
+            "request": "launch",
+            "mainClass": "Hello"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
