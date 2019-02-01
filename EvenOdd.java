@@ -20,12 +20,12 @@ public class EvenOdd {
                 }
             } else if (choice == '2') {
                 System.out.println("Even Number: ");
-                for (i = 2; i <= r; i++) {
-                    System.out.print(i + "\n");
+                for (i = 2; i <= r; i+=2) {
+                    System.out.print(i + "\t");
                 }
                 System.out.println("\nOdd Number: ");
-                for (i = 1; i <= r; i++) {
-                    System.out.print(i + "\n");
+                for (i = 1; i <= r; i=i+2) {
+                    System.out.print(i + "\t");
                 }
             }
             System.out.println("Press 'y' or 'Y' to run the program again: ");
