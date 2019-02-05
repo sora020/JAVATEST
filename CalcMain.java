@@ -19,11 +19,13 @@ public class CalcMain
                             "9. Exponent 'exp'  ::  'e'\n" +
                             "10. sin()  ::  's'\n" +
                             "11. cos()  ::  'c'\n" +
-                            "12. tan()  ::  't'\n"
+                            "12. tan()  ::  't'\n" + 
+                            "13. Absolute value abs()  ::  'a'\n" + 
+                            "14. Square root  ::  'r'\n"
                             );
             System.out.println("Enter Operator: ");
             oper = sc.next().charAt(0);
-            if(oper == '^' || oper == 'l' || oper == 'n' || oper == 'e' || oper == 's' || oper == 'c' || oper == 't')
+            if(oper == '^' || oper == 'l' || oper == 'n' || oper == 'e' || oper == 's' || oper == 'c' || oper == 't' || oper == 'a' || oper == 'r')
             {
                 System.out.println("Enter a Number: ");
                 a = sc.nextFloat();
@@ -121,6 +123,14 @@ class calculator
         {
             res = calculator.tan();
         }
+        else if(oper == 'a')
+        {
+            res = calculator.abs();
+        }
+        else if(oper == 'r')
+        {
+            res = calculator.sqrt();
+        }
         else
             System.out.println("Not a valid Operator");
         return res;
@@ -180,5 +190,15 @@ class calculator
     {
         float tan = (float)Math.tan(a);
         return tan;
+    }
+    float abs()
+    {
+        float abs = Math.abs(a);
+        return abs;
+    }
+    float sqrt()
+    {
+        float sqrt = (float)Math.sqrt(a);
+        return sqrt;
     }
 }
