@@ -1,5 +1,5 @@
 //Normal class and object Example
-class Rectangle {
+class Rectangle1 {
     float length, breadth;
 
     void rectangle(float x, float y) {
@@ -17,7 +17,7 @@ public class Rectmain {
         float l, b;
         l = Float.parseFloat(args[0]);
         b = Float.parseFloat(args[1]);
-        Rectangle r1 = new Rectangle();
+        Rectangle1 r1 = new Rectangle1();
         // Rectangle r2 = new Rectangle();
         r1.rectangle(l, b);
         // r2.length = l;
