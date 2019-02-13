@@ -7,11 +7,11 @@ public class StarPattern4
         {
             for(int k = 1; k <= row - i; k++)
             {
-                System.out.print(" ");
+                System.out.print("  ");
             }
             for(int j = 1; j <= i; j++)
             {
-                System.out.print("* ");
+                System.out.print("*   ");
             }
             System.out.println();
         }
