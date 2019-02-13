@@ -1,5 +1,5 @@
 class Rectangle{
-    private
+    public
         float length, breadth;
 
     public Rectangle(float l, float b) {
