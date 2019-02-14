@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - AreaMain",
+            "request": "launch",
+            "mainClass": "AreaMain",
+            "projectName": "Javatest_2665ad52"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Circle",
             "request": "launch",
             "mainClass": "Circle",
