@@ -1,23 +1,25 @@
 class Calculation {
-    private int a, b;
+    private int a, b, c, d;
 
-    public Calculation(int a, int b) {
+    public Calculation(int a, int b, int c, int d) {
         this.a = a;
         this.b = b;
+	this.c = c;
+	this.d = d;
     }
 
-    int add() {
+    public int add() {
         return (a + b);
     }
 
-    int sub() {
-        return (a - b);
+    public int sub() {
+        return (c - d);
     }
 }
 
 class MyCalculation extends Calculation {
     public MyCalculation(int a, int b, int c, int d) {
-        super(a, b);
+        super(a, b, c, d);
     }
 
     int Result() {
